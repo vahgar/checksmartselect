@@ -1,1 +1,15 @@
+{% load staticfiles %}
+{% load static %}
+<html>
+<head>
+	<title>Check</title>
+	<script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/jquery.easing.min.js' %}"></script>
+	<script src="{% static 'js/chainedfk.js' %}"></script>
+	<script src="{% static 'js/chainedm2m.js' %}"></script>
+
+</head>
+<body>
 {{ form.as_p }}
+</body>
+</html>
